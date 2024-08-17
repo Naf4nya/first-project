@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: #be2e37;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.header_content {
+    display: flex;
+    width: 100%;
+    min-height: 200px;
+    margin: auto;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat (4, 1fr);
+    grid-template-rows: repeat (5, 1fr);
+    gap: 10px;
+}
+
+.footer_content {
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    margin: auto;
+}

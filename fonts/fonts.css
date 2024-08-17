@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: 
+    url(./helvetica_regular.otf) format ('opentype');
+    font-weight: 400;
+    font-display: swap;
+}
